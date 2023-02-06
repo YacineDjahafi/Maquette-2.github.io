@@ -1,0 +1,319 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+a{
+    color: black;
+}
+#logo{
+    width: 150px;
+    margin: 10% auto auto 10%;
+}
+.navbar{
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 150%;
+    box-sizing: border-box;
+}
+nav a{
+    color: rgb(2, 2, 3);
+    font-weight: 500;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+}
+nav a:hover{
+    color: rgb(40, 40, 211);
+}
+.navbar .nav-links ul {
+    display: flex;
+}
+.navbar .nav-links li {
+    margin: 0 20px;
+}
+.menu{
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    width: 40px;
+}
+.textleft{
+    padding: 1%;
+    padding-bottom: 2%;
+    text-align: left;
+    margin: 10px;
+}
+.text{
+    margin: 3%;
+}
+#big{
+    font-size: 50px;
+    padding: 5%;
+}
+.texte{
+    padding: 2%;
+}
+#barre{
+    color: white;
+    background-color: black;
+    margin: 3% auto auto auto;
+    padding: 1%;
+}
+#purple{
+    color: purple;
+}
+#button0{
+    margin: 2% 0 3% 10%;
+    background-color: rgb(250, 135, 42);
+    border-radius: 3px;
+    padding: 8px;
+    text-align: center;
+    transition-duration: 0.5s;
+    width: 160px;
+    display: block;
+}
+#button0:hover{
+    border-radius: 12px;
+    color: rgb(223, 223, 223);
+}
+.button1{
+    margin-left: 7%;
+    margin: 10% 0 3% 10%;
+    background-color: rgb(211, 138, 79);
+    border-radius: 3px;
+    padding: 8px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.button1:hover{
+    border-radius: 12px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(9, 53, 136);
+}
+.button2{
+    background-color: rgb(255, 237, 135);
+    margin: 3%;
+    border-radius: 3px;
+    padding: 8px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.button2:hover{
+    border-radius: 12px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(45, 126, 7);
+}
+#button3{
+    background-color: rgb(255, 225, 70);
+    margin: 3%;
+    border-radius: 3px;
+    padding: 8px;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+#button3:hover{
+    border-radius: 12px;
+    color: rgb(223, 223, 223);
+    background-color: rgb(97, 13, 145);
+}
+#bloc{
+    background-color: black;
+}
+.burgerflex{
+    display: flex;
+}
+.white1{
+    color: white;
+}
+.white{
+    color: white;
+    margin-bottom: 5%;
+}
+#pic1{
+    width: 80%;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.image2{
+    width: 80%;
+    height: auto;
+    margin: 20px auto auto auto;
+}
+#jacobs{
+    width: 80%;
+height: auto;
+margin: auto auto;
+}
+
+.flex{
+    display: flex;
+}
+#blue{
+    background-color: rgb(88, 135, 255);
+    padding-bottom: 5%;
+}
+.space{
+    padding: 5%;
+}
+.padbutbot{
+    background-color: black;
+    margin: auto;
+}
+.small{
+    font-size: small;
+}
+#bold{
+    font-weight: 700;
+    margin-bottom: 5%;
+}
+.accordion{
+    background-color: rgb(0, 194, 122);
+    padding: 5%;
+}
+.pad{
+    padding: 3% 0 3% 0;
+    margin: 3%;
+}
+.img{
+    margin: 3% auto 3% auto;
+}
+.picaccor{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 5% auto auto auto;
+}
+.black{
+    background-color: black;
+    margin: auto;
+    width: 80%;
+}
+
+#backpurple{
+    background-color: rgb(190, 83, 255);
+}
+#grey{
+    background-color: rgb(237, 237, 219);
+}
+.border{
+    border-bottom: 3px;
+    text-align: center;
+}
+figure{
+    width: 45%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+figure img{
+    width: 185px;
+}
+figcaption{
+    text-align: center;
+}
+#blue1{
+    border-bottom: solid 2px blue;
+    border-width: 4px;
+    border-radius: 3px;
+    width: 75px;
+    margin: 0 auto;
+}
+#yellow{
+    border-bottom: solid 2px rgb(251, 255, 0);
+    border-width: 4px;
+    border-radius: 3px;
+    width: 67px;
+    margin: 0 auto;
+}
+#pink{
+    border-bottom: solid 2px rgba(255, 0, 170, 0.747);
+    border-width: 4px;
+    border-radius: 3px;
+    width: 53px;
+    margin: 0 auto;
+}
+#green{
+    border-bottom: solid 2px rgb(15, 156, 38);
+    border-width: 4px;
+    border-radius: 3px;
+    width: 40px;
+    margin: 0 auto;
+}
+#purple2{
+    border-bottom: solid 2px rgb(195, 0, 255);
+    border-width: 4px;
+    border-radius: 3px;
+    width: 75px;
+    margin: 0 auto;
+}
+#backpink{
+    background-color: rgb(252, 131, 255);
+    padding-bottom: 5%;
+}
+#backpink h3{
+    text-align: center;
+}
+#backpink a{
+    display: block;
+    margin: auto auto;
+    width: 100px;
+}
+@media screen and (min-width:780px) {
+    .flexpc{
+        display: flex;
+    }
+    .img{
+        margin: 3%;
+    }
+    .block{
+        flex-wrap: nowrap;
+    }
+    .image3{
+        width: 20%;
+        justify-content: space-evenly;
+        padding-top: 2%;
+    }
+    .space{
+        padding: 2%;
+    }
+    p, a{
+    font-size: 1.2rem;
+    }
+    h1{
+        font-size: 2.2rem;
+    }
+    h2{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    .img p{
+        margin: 5% 5% 10% 5%;
+    }
+    .menu{
+        display: none;
+    }
+    .picaccor, .black{
+        width: 100%;
+        max-width: 1000px;
+    }
+    span{
+        padding: 15% 0% 15% 0;
+    }
+}
+@media screen and (max-width: 770px) {
+    .nav-links{
+        display: none;
+    }
+}
